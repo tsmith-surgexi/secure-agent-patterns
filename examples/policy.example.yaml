@@ -1,0 +1,19 @@
+# policy.example.yaml — allowlist-based agent policy. Placeholders only.
+# Define what is PERMITTED; everything else is denied by default.
+egress_allowlist:
+  - docs.example.com
+  - api.example.com
+
+tools:
+  read_file:
+    risk: low          # auto-approve
+  search_docs:
+    risk: low
+  send_email:
+    risk: high         # requires human-in-the-loop approval
+  delete_record:
+    risk: high
+
+command_allowlist:
+  - ls
+  - cat
