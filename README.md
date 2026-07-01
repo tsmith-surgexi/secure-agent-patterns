@@ -2,6 +2,9 @@
 
 > Defensive patterns for **hardening agentic AI systems** — how to give an LLM tools and autonomy without giving away the keys to the kingdom.
 
+[![ci](https://github.com/tsmith-surgexi/secure-agent-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/tsmith-surgexi/secure-agent-patterns/actions/workflows/ci.yml)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A practitioner's reference for the security side of agentic AI. As LLMs gain the ability to call tools, browse, and act, the attack surface shifts. This repo collects the **defensive** patterns I apply when designing agent systems — the same posture enterprise AI-security roles are now hiring for.
 
 > This is defense-only material: it shows how to *protect* agent systems, not how to attack them.
@@ -72,3 +75,7 @@ flows, design-decision records (ADRs), and trade-offs — see
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+*Part of my AI‑platform work — see my other [pinned repositories](https://github.com/tsmith-surgexi) and the platform they support at [SurgeXi](https://surgexi.com).*
