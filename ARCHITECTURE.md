@@ -1,3 +1,4 @@
+<!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # Architecture & Case Study — Securing Agentic AI Systems
 
 > A defense-only reference for hardening agents that hold tools and autonomy.
