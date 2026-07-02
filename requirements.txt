@@ -1,0 +1,5 @@
+# Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved.
+# The reference example runs with zero third-party deps (pyyaml is optional —
+# there is a built-in fallback policy). These are only what CI installs to lint
+# and test.
+pyyaml>=6.0
