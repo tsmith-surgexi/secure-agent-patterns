@@ -1,14 +1,12 @@
 <!-- Copyright © 2026 SurgeXi Business Intelligence, a Teamsmith Enterprises LLC company. All Rights Reserved. -->
 # 🛡️ secure-agent-patterns
 
-> Defensive patterns for **hardening agentic AI systems** — how to give an LLM tools and autonomy without giving away the keys to the kingdom.
+> The **threat model and control-plane design** for governing agentic AI — how to give an LLM tools and autonomy without giving away the keys to the kingdom. This is the intellectual foundation behind [**Vertirite**](https://vertirite.com), SurgeXi's AI-governance control plane.
 
 [![ci](https://github.com/tsmith-surgexi/secure-agent-patterns/actions/workflows/ci.yml/badge.svg)](https://github.com/tsmith-surgexi/secure-agent-patterns/actions/workflows/ci.yml)
 [![license: source-available](https://img.shields.io/badge/license-source--available-blue.svg)](LICENSE)
 
-A practitioner's reference for the security side of agentic AI. As LLMs gain the ability to call tools, browse, and act, the attack surface shifts. This repo collects the **defensive** patterns I apply when designing agent systems — the same posture enterprise AI-security roles are now hiring for.
-
-> This is defense-only material: it shows how to *protect* agent systems, not how to attack them.
+**What this demonstrates.** As LLMs gain the ability to call tools, browse, and act, the attack surface shifts. This repo lays out the security posture I design agent systems around: treat model output as untrusted, route every side-effecting action through a single choke point, deny anything outside its grant, drop egress that isn't on the allowlist, and hold high-risk actions for a human. It's the threat model, the control-plane pattern, and a runnable proof — the *why* and the *how* that Vertirite productizes into a deployable control plane. Defense-only: it shows how to *protect* agent systems, not how to attack them. Setup and the runnable demo are below.
 
 ---
 
